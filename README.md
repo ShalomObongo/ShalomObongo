@@ -33,6 +33,6 @@ Welcome to my GitHub profile! I’m a driven **Computer Science student at Strat
 ## 🌐 Let's Connect
 - **LinkedIn**: [Shalom Obongo](https://www.linkedin.com/in/shalom-obongo)
 - **Email**: shalomobongo@yahoo.com
-- **Website**: [Erudite Digital](https://eruditedigital.com)
+- **Work Website**: [Erudite Digital](https://eruditedigital.com)
 
 Thanks for visiting my profile! Don't forget to check out my repositories and feel free to reach out if you want to collaborate or chat about tech. Let's build something great together! 🚀✨
