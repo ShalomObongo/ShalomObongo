@@ -46,10 +46,10 @@
 ### 🎯 Featured Projects
 
 <div align="center">
-  <a href="https://eruditedigital.com">
+  <a href="https://github.com/ShalomObongo/EruditeDigital">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShalomObongo&repo=erudite-digital&theme=react" />
   </a>
-  <a href="https://studentszone.vercel.app">
+  <a href="https://github.com/ShalomObongo/Student-Sphere">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShalomObongo&repo=student-zone&theme=react" />
   </a>
 </div>
