@@ -3,9 +3,7 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,16,18,20&height=300&section=header&text=Shalom%20Obongo&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Innovating%20the%20Future%20of%20Tech&descSize=20&descAlignY=60" />
 
   <!-- Dynamic Typing Effect -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00B8D4&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=850&height=100&lines=🚀+Full-Stack+%26+Mobile+Developer+%7C+🎓+Strathmore+University;💡+Founder+%40+Erudite+Digital+%7C+👨‍💻+Tech+Director+%40+Calm%26Zest;⚙️+Process+Automation+%26+IT+Operations+Specialist" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00B8D4&center=true&vCenter=true&multiline=true&repeat=true&width=850&height=100&lines=Full-Stack+%26+Mobile+Developer;Process+Automation+Specialist;Leading+Development+Teams;Building+Scalable+Solutions" alt="Typing SVG" />
 
   <!-- Animated Status Badges -->
   <div align="center">
@@ -20,10 +18,12 @@
   </div>
 </div>
 
-<!-- 3D Profile View Counter -->
+<!-- Profile View Counter -->
 <div align="center">
-  <img src="https://profile-counter.glitch.me/ShalomObongo/count.svg" alt="Visitor Count" style="width: 300px; height: 40px;" />
+  <img src="https://komarev.com/ghpvc/?username=ShalomObongo&label=Profile%20Views&color=00b8d4&style=flat-square" alt="Profile Views"/>
 </div>
+
+<br>
 
 <!-- Animated Wave Separator -->
 <img width="100%" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
@@ -48,7 +48,7 @@
         <img src="https://github-readme-stats.vercel.app/api?username=ShalomObongo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=00b8d4&title_color=00b8d4" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShalomObongo&theme=tokyonight&hide_border=true&background=0D1117&stroke=00b8d4&ring=00b8d4&fire=00b8d4&currStreakLabel=00b8d4" />
+        <img src="https://streak-stats.demolab.com/?user=ShalomObongo&theme=tokyonight&hide_border=true&background=0D1117&stroke=00b8d4&ring=00b8d4&fire=00b8d4&currStreakLabel=00b8d4" />
       </td>
     </tr>
   </table>
@@ -424,34 +424,14 @@ const shalomObongo = {
   </h2>
 </summary>
 <div align="center">
-  <!-- Animated Progress Bars -->
+  <!-- Current Focus Areas -->
   <h3>🎯 Current Focus Areas</h3>
-  <table>
-    <tr>
-      <td>Leading Development Teams</td>
-      <td>
-        <img src="https://progress-bar.dev/90/?width=500&color=00b8d4" />
-      </td>
-    </tr>
-    <tr>
-      <td>Process Automation & Power Platform</td>
-      <td>
-        <img src="https://progress-bar.dev/85/?width=500&color=00b8d4" />
-      </td>
-    </tr>
-    <tr>
-      <td>Mobile App Development (React Native)</td>
-      <td>
-        <img src="https://progress-bar.dev/88/?width=500&color=00b8d4" />
-      </td>
-    </tr>
-    <tr>
-      <td>Machine Learning & AI Integration</td>
-      <td>
-        <img src="https://progress-bar.dev/80/?width=500&color=00b8d4" />
-      </td>
-    </tr>
-  </table>
+  <p>
+    <img src="https://img.shields.io/badge/Leading_Development_Teams-★★★★★-00b8d4?style=for-the-badge&labelColor=1a1a1a"/>
+    <img src="https://img.shields.io/badge/Process_Automation-★★★★☆-00b8d4?style=for-the-badge&labelColor=1a1a1a"/>
+    <img src="https://img.shields.io/badge/Mobile_Development-★★★★★-00b8d4?style=for-the-badge&labelColor=1a1a1a"/>
+    <img src="https://img.shields.io/badge/AI_Integration-★★★★☆-00b8d4?style=for-the-badge&labelColor=1a1a1a"/>
+  </p>
 
   <!-- Current Projects -->
   <h3>🚀 Active Projects</h3>
@@ -480,13 +460,9 @@ const shalomObongo = {
 <div align="center">
   <!-- Quote of the Day -->
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="100%"/>
-  
-  <!-- Profile Views -->
-  <img src="https://komarev.com/ghpvc/?username=ShalomObongo&label=Profile%20Views&color=00b8d4&style=for-the-badge" alt="Profile Views"/>
-  
-  <!-- Time Stats -->
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=ShalomObongo&theme=radical&hide_border=true"/>
-  
+
+  <br><br>
+
   <!-- Footer Wave -->
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=120&section=footer&animation=twinkling"/>
 </div>
