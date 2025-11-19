@@ -10,11 +10,10 @@
   <!-- Animated Status Badges -->
   <div align="center">
     <a href="https://eruditedigital.com">
-      <img src="https://custom-icon-badges.demolab.com/badge/-Founder_@_Erudite_Digital-blue?style=for-the-badge&logo=company&logoColor=white"/>
+      <img src="https://custom-icon-badges.demolab.com/badge/-Full_Stack_Dev_@_Erudite_Digital-blue?style=for-the-badge&logo=code&logoColor=white"/>
     </a>
-    <a href="https://calmandzest.co.ke">
-      <img src="https://custom-icon-badges.demolab.com/badge/-Tech_Director_@_Calm&Zest-purple?style=for-the-badge&logo=desktop&logoColor=white"/>
-    </a>
+    <img src="https://custom-icon-badges.demolab.com/badge/-IT_Assistant_@_Letshego_Kenya-green?style=for-the-badge&logo=shield&logoColor=white"/>
+    <img src="https://custom-icon-badges.demolab.com/badge/-Lead_Dev_@_Momentum_Labs-purple?style=for-the-badge&logo=rocket&logoColor=white"/>
     <a href="https://strathmore.edu">
       <img src="https://custom-icon-badges.demolab.com/badge/-Computer_Science_@_Strathmore-red?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
     </a>
@@ -73,44 +72,88 @@ const shalomObongo = {
   specializations: [
     "Full Stack & Mobile Development",
     "Process Automation & IT Operations",
-    "Cloud Architecture & DevOps"
+    "Cloud Architecture & DevOps",
+    "Leading Development Teams"
   ],
   currentRoles: [
     {
-      title: "Founder & Lead Developer",
+      title: "Full Stack Developer",
       company: "Erudite Digital Africa",
       location: "Nairobi, Kenya",
-      period: "2024 - Present",
-      focus: "Leading development of scalable applications, fostering team collaboration"
+      period: "March 2024 - Present",
+      focus: "Creating innovative software solutions and tech consulting for local businesses",
+      achievements: [
+        "Delivered multiple software projects enhancing business growth",
+        "Managed client relationships and aligned tech strategies with business goals"
+      ]
     },
     {
-      title: "Tech Director",
-      company: "Calm&Zest Enterprise",
+      title: "Information Technology Assistant",
+      company: "Letshego Kenya",
       location: "Nairobi, Kenya",
-      period: "2024 - Present",
-      focus: "Technology strategy and digital transformation"
+      period: "January 2025 - April 2025",
+      focus: "Process automation, systems setup, and IT operations",
+      achievements: [
+        "Designed automated workflows using Power Apps and Power Automate",
+        "Optimized IT infrastructure and asset management"
+      ]
+    },
+    {
+      title: "Lead Application Developer",
+      company: "Momentum Labs",
+      location: "Nairobi, Kenya",
+      period: "November 2024 - May 2025",
+      focus: "Leading AfroNative mobile app development for African language preservation",
+      achievements: [
+        "Oversaw full development lifecycle from planning to deployment",
+        "Mentored development team and coordinated feature implementation"
+      ]
+    },
+    {
+      title: "Technology Consultant",
+      company: "Calm&Zest Enterprises",
+      location: "Nairobi, Kenya",
+      period: "January 2022 - January 2025",
+      focus: "Tech-driven transformation and operational efficiency",
+      achievements: [
+        "Implemented POS systems and process automation",
+        "Improved service quality through customer feedback mechanisms"
+      ]
     }
   ],
+  recentInternship: {
+    title: "Machine Learning Intern",
+    company: "HubbleMind",
+    period: "December 2024",
+    achievement: "Built ML solution for obesity level estimation with 91% accuracy using Python & scikit-learn"
+  },
   education: {
     degree: "Bachelor's in Computer Science",
     institution: "Strathmore University",
-    graduationYear: 2025,
+    period: "February 2022 - December 2025",
     performance: "Grade: B"
   },
   expertise: {
     frontend: ["React", "Next.js", "Vue", "Tailwind CSS"],
     backend: ["Node.js", "Express", "Python", "Java"],
     mobile: ["React Native", "Flutter", "Expo"],
-    ai: ["TensorFlow", "PyTorch", "Gemini API", "Groq API"],
+    ai: ["TensorFlow", "PyTorch", "Gemini API", "Groq API", "scikit-learn"],
     cloud: ["AWS", "GCP", "Docker", "Kubernetes"],
-    automation: ["Power Platform", "Process Automation", "IT Operations"]
+    automation: ["Microsoft Power Platform", "Power Apps", "Power Automate", "Process Automation"]
   },
+  topSkills: [
+    "Leading Development Teams",
+    "Mobile Software Development",
+    "Microsoft Power Apps",
+    "Project Management",
+    "UI/UX Design"
+  ],
   certifications: [
-    "CCNA - Networks (Cisco, 2023)",
+    "CCNA: Introduction to Networks (Cisco, 2023)",
     "Python 3 Certification (Codecademy, 2022)"
   ],
   languages: ["English", "Swahili", "Chinese"],
-  passion: "Creating innovative solutions that blend technical precision with user-centered design, driving digital transformation across Africa"
+  passion: "Solving real-world challenges through innovative digital solutions that blend technical precision with user-centered design, driving digital transformation and operational efficiency across Africa"
 };
 ```
 </details>
@@ -129,6 +172,17 @@ const shalomObongo = {
   <table>
     <tr>
       <td width="50%">
+        <h3 align="center">AfroNative 🌍</h3>
+        <div align="center">
+          <p>
+            <img src="https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge"/>
+            <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+            <img src="https://img.shields.io/badge/Language_Learning-4CAF50?style=for-the-badge&logo=google-translate&logoColor=white"/>
+          </p>
+          <p><sub><strong>Lead Application Developer @ Momentum Labs</strong><br>Mobile app for preserving and promoting native African languages through modern learning tools</sub></p>
+        </div>
+      </td>
+      <td width="50%">
         <h3 align="center">Erudite Digital Africa 🚀</h3>
         <div align="center">
           <a href="https://eruditedigital.com" target="_blank">
@@ -143,6 +197,8 @@ const shalomObongo = {
           </p>
         </div>
       </td>
+    </tr>
+    <tr>
       <td width="50%">
         <h3 align="center">Calm&Zest Enterprise 💧</h3>
         <div align="center">
@@ -156,6 +212,17 @@ const shalomObongo = {
             <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
             <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
           </p>
+        </div>
+      </td>
+      <td width="50%">
+        <h3 align="center">ML Obesity Predictor 🧠</h3>
+        <div align="center">
+          <p>
+            <img src="https://img.shields.io/badge/Accuracy-91%25-success?style=for-the-badge"/>
+            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+            <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+          </p>
+          <p><sub><strong>Machine Learning Intern @ HubbleMind</strong><br>ML solution for obesity level estimation with 91% prediction accuracy</sub></p>
         </div>
       </td>
     </tr>
@@ -209,19 +276,19 @@ const shalomObongo = {
       <td align="center">
         <img src="https://img.shields.io/badge/Advanced-★★★★★-gold?style=for-the-badge&labelColor=black" />
       </td>
-      <td>Next.js, React, Node.js, JavaScript/TypeScript, Tailwind CSS, React Native</td>
+      <td>Next.js, React, Node.js, JavaScript/TypeScript, React Native, Mobile Development</td>
     </tr>
     <tr>
       <td align="center">
         <img src="https://img.shields.io/badge/Proficient-★★★★☆-silver?style=for-the-badge&labelColor=black" />
       </td>
-      <td>Python, Java, Docker, AWS, GCP, AI Integration, Power Platform, Process Automation</td>
+      <td>Python, Microsoft Power Apps, Power Automate, Process Automation, Project Management, UI/UX Design</td>
     </tr>
     <tr>
       <td align="center">
         <img src="https://img.shields.io/badge/Familiar-★★★☆☆-bronze?style=for-the-badge&labelColor=black" />
       </td>
-      <td>Kubernetes, Flutter, Vue.js, System Architecture, IT Operations</td>
+      <td>Java, Docker, AWS, GCP, Kubernetes, Flutter, Vue.js, Machine Learning (TensorFlow, scikit-learn)</td>
     </tr>
   </table>
 
@@ -302,20 +369,30 @@ const shalomObongo = {
     <tr>
       <td align="center">
         <a href="https://eruditedigital.com">
-          <img src="https://custom-icon-badges.demolab.com/badge/-Erudite_Digital-4285F4?style=for-the-badge&logo=building&logoColor=white"/>
+          <img src="https://custom-icon-badges.demolab.com/badge/-Erudite_Digital-4285F4?style=for-the-badge&logo=code&logoColor=white"/>
           <br>
-          <sub>Founder & Lead Developer</sub>
+          <sub>Full Stack Developer</sub>
         </a>
       </td>
       <td align="center">
-        <a href="https://calmandzest.co.ke">
-          <img src="https://custom-icon-badges.demolab.com/badge/-Calm&Zest-00C4CC?style=for-the-badge&logo=water&logoColor=white"/>
-          <br>
-          <sub>Tech Director</sub>
-        </a>
+        <img src="https://custom-icon-badges.demolab.com/badge/-Letshego_Kenya-28A745?style=for-the-badge&logo=shield&logoColor=white"/>
+        <br>
+        <sub>IT Assistant | Process Automation</sub>
+      </td>
+      <td align="center">
+        <img src="https://custom-icon-badges.demolab.com/badge/-Momentum_Labs-9C27B0?style=for-the-badge&logo=rocket&logoColor=white"/>
+        <br>
+        <sub>Lead Application Developer</sub>
       </td>
     </tr>
   </table>
+
+  <h3>💼 Professional Highlights</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Leading_Development_Teams-Expert-gold?style=for-the-badge&logo=users&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Mobile_Software_Development-Expert-gold?style=for-the-badge&logo=mobile&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Microsoft_Power_Apps-Expert-gold?style=for-the-badge&logo=microsoft&logoColor=white"/>
+  </p>
 </div>
 </details>
 
@@ -348,24 +425,30 @@ const shalomObongo = {
 </summary>
 <div align="center">
   <!-- Animated Progress Bars -->
-  <h3>🎯 Learning Progress</h3>
+  <h3>🎯 Current Focus Areas</h3>
   <table>
     <tr>
-      <td>Advanced AI Integration</td>
+      <td>Leading Development Teams</td>
+      <td>
+        <img src="https://progress-bar.dev/90/?width=500&color=00b8d4" />
+      </td>
+    </tr>
+    <tr>
+      <td>Process Automation & Power Platform</td>
       <td>
         <img src="https://progress-bar.dev/85/?width=500&color=00b8d4" />
       </td>
     </tr>
     <tr>
-      <td>Cloud Architecture</td>
+      <td>Mobile App Development (React Native)</td>
       <td>
-        <img src="https://progress-bar.dev/80/?width=500&color=00b8d4" />
+        <img src="https://progress-bar.dev/88/?width=500&color=00b8d4" />
       </td>
     </tr>
     <tr>
-      <td>System Design</td>
+      <td>Machine Learning & AI Integration</td>
       <td>
-        <img src="https://progress-bar.dev/75/?width=500&color=00b8d4" />
+        <img src="https://progress-bar.dev/80/?width=500&color=00b8d4" />
       </td>
     </tr>
   </table>
@@ -375,14 +458,19 @@ const shalomObongo = {
   <table>
     <tr>
       <td align="center">
-        <img src="https://custom-icon-badges.demolab.com/badge/-Erudite_Digital_2.0-FF6B6B?style=for-the-badge&logo=rocket&logoColor=white"/>
+        <img src="https://custom-icon-badges.demolab.com/badge/-AfroNative-4CAF50?style=for-the-badge&logo=globe&logoColor=white"/>
         <br>
-        <sub>Launching Soon</sub>
+        <sub>African Language Learning Platform</sub>
       </td>
       <td align="center">
-        <img src="https://custom-icon-badges.demolab.com/badge/-AI_Integration_Suite-00C4CC?style=for-the-badge&logo=brain&logoColor=white"/>
+        <img src="https://custom-icon-badges.demolab.com/badge/-Power_Platform_Automation-742774?style=for-the-badge&logo=microsoft&logoColor=white"/>
         <br>
-        <sub>In Development</sub>
+        <sub>Enterprise Workflow Solutions @ Letshego</sub>
+      </td>
+      <td align="center">
+        <img src="https://custom-icon-badges.demolab.com/badge/-Erudite_Digital_Projects-00B8D4?style=for-the-badge&logo=code&logoColor=white"/>
+        <br>
+        <sub>Tech Consulting & Development</sub>
       </td>
     </tr>
   </table>
