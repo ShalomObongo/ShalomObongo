@@ -4,7 +4,7 @@
 
   <!-- Dynamic Typing Effect -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00B8D4&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=850&height=100&lines=🚀+Full-Stack+Developer+%7C+🎓+Strathmore+University;💡+Founder+%40+Erudite+Digital+%7C+👨‍💻+Tech+Director+%40+Calm%26Zest" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00B8D4&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=850&height=100&lines=🚀+Full-Stack+%26+Mobile+Developer+%7C+🎓+Strathmore+University;💡+Founder+%40+Erudite+Digital+%7C+👨‍💻+Tech+Director+%40+Calm%26Zest;⚙️+Process+Automation+%26+IT+Operations+Specialist" alt="Typing SVG" />
   </a>
 
   <!-- Animated Status Badges -->
@@ -35,6 +35,14 @@
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
     About Me
   </h2>
+
+  <p align="center" style="max-width: 800px; margin: 20px auto;">
+    <strong>Innovative Technology Professional</strong> specializing in <strong>Full Stack & Mobile Development</strong>,
+    <strong>Process Automation</strong>, and <strong>IT Operations</strong>. I create scalable applications that blend
+    technical precision with user-centered design, driving digital transformation across Africa. Passionate about
+    leveraging cutting-edge technologies to solve real-world problems and empower communities through technology.
+  </p>
+
   <table>
     <tr>
       <td width="50%">
@@ -61,12 +69,28 @@
 
 ```typescript
 const shalomObongo = {
-  currentRole: {
-    title: "Founder & Lead Developer",
-    company: "Erudite Digital Africa",
-    location: "Nairobi, Kenya",
-    period: "2024 - Present"
-  },
+  title: "Innovative Technology Professional",
+  specializations: [
+    "Full Stack & Mobile Development",
+    "Process Automation & IT Operations",
+    "Cloud Architecture & DevOps"
+  ],
+  currentRoles: [
+    {
+      title: "Founder & Lead Developer",
+      company: "Erudite Digital Africa",
+      location: "Nairobi, Kenya",
+      period: "2024 - Present",
+      focus: "Leading development of scalable applications, fostering team collaboration"
+    },
+    {
+      title: "Tech Director",
+      company: "Calm&Zest Enterprise",
+      location: "Nairobi, Kenya",
+      period: "2024 - Present",
+      focus: "Technology strategy and digital transformation"
+    }
+  ],
   education: {
     degree: "Bachelor's in Computer Science",
     institution: "Strathmore University",
@@ -76,16 +100,17 @@ const shalomObongo = {
   expertise: {
     frontend: ["React", "Next.js", "Vue", "Tailwind CSS"],
     backend: ["Node.js", "Express", "Python", "Java"],
-    mobile: ["React Native", "Flutter"],
+    mobile: ["React Native", "Flutter", "Expo"],
     ai: ["TensorFlow", "PyTorch", "Gemini API", "Groq API"],
-    cloud: ["AWS", "GCP", "Docker", "Kubernetes"]
+    cloud: ["AWS", "GCP", "Docker", "Kubernetes"],
+    automation: ["Power Platform", "Process Automation", "IT Operations"]
   },
   certifications: [
     "CCNA - Networks (Cisco, 2023)",
     "Python 3 Certification (Codecademy, 2022)"
   ],
   languages: ["English", "Swahili", "Chinese"],
-  passion: "Creating innovative solutions that drive digital transformation"
+  passion: "Creating innovative solutions that blend technical precision with user-centered design, driving digital transformation across Africa"
 };
 ```
 </details>
@@ -143,8 +168,10 @@ const shalomObongo = {
           </a>
           <p>
             <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+            <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white"/>
             <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
           </p>
+          <p><sub>Mobile LMS with secure authentication, dynamic dashboard, performance analytics & discussion forums</sub></p>
         </div>
       </td>
       <td width="50%">
@@ -182,19 +209,19 @@ const shalomObongo = {
       <td align="center">
         <img src="https://img.shields.io/badge/Advanced-★★★★★-gold?style=for-the-badge&labelColor=black" />
       </td>
-      <td>Next.js, React, Node.js, JavaScript/TypeScript, Tailwind CSS</td>
+      <td>Next.js, React, Node.js, JavaScript/TypeScript, Tailwind CSS, React Native</td>
     </tr>
     <tr>
       <td align="center">
         <img src="https://img.shields.io/badge/Proficient-★★★★☆-silver?style=for-the-badge&labelColor=black" />
       </td>
-      <td>Python, Java, Docker, AWS, GCP, AI Integration</td>
+      <td>Python, Java, Docker, AWS, GCP, AI Integration, Power Platform, Process Automation</td>
     </tr>
     <tr>
       <td align="center">
         <img src="https://img.shields.io/badge/Familiar-★★★☆☆-bronze?style=for-the-badge&labelColor=black" />
       </td>
-      <td>Kubernetes, Flutter, Vue.js, System Architecture</td>
+      <td>Kubernetes, Flutter, Vue.js, System Architecture, IT Operations</td>
     </tr>
   </table>
 
@@ -205,6 +232,13 @@ const shalomObongo = {
     <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,firebase,mongodb" /><br>
     <img src="https://skillicons.dev/icons?i=tailwind,figma,git,vscode,postman,linux" />
   </div>
+
+  <h3>⚙️ Process Automation & Enterprise Tools</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Power_Platform-742774?style=for-the-badge&logo=microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=power-automate&logoColor=white" />
+    <img src="https://img.shields.io/badge/IT_Operations-00BCF2?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+  </p>
 
   <!-- AI & Cloud Certifications -->
   <h3>🏆 Certifications & Achievements</h3>
