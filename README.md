@@ -6,7 +6,7 @@
 <!-- ===== MATRIX TYPING ANIMATION ===== -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=800&color=00E5FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=60&lines=🚀+Full+Stack+%26+Mobile+Developer+%7C+Nairobi%2C+Kenya;⚙️+Process+Automation+%26+Power+Platform+Specialist;🤖+Machine+Learning+%26+AI+Integration+Engineer;🌍+Building+Digital+Africa+—+One+App+at+a+Time;👨‍💻+Computer+Science+@+Strathmore+University" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=800&color=00E5FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=60&lines=%F0%9F%9A%80+Full+Stack+%26+Mobile+Developer+%7C+Nairobi%2C+Kenya;%E2%9A%99%EF%B8%8F+Process+Automation+%26+Power+Platform+Specialist;%F0%9F%A4%96+Machine+Learning+%26+AI+Integration+Engineer;%F0%9F%8C%8D+Building+Digital+Africa+%E2%80%94+One+App+at+a+Time;%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Computer+Science+%40+Strathmore+University" alt="Typing SVG" />
   </a>
 </div>
 
