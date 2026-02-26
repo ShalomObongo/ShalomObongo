@@ -617,7 +617,7 @@ const shalomObongo: Developer = {
 
 <!-- ===== EASTER EGG ===== -->
 <details>
-<summary>🎁 You found a secret...</summary>
+<summary>🎁 You found an Easter Egg!</summary>
 <br>
 <div align="center">
   <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="180"/>
