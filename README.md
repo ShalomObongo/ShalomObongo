@@ -33,7 +33,11 @@
 <br>
 
 <!-- ===== SNAKE ANIMATION ===== -->
-<img width="100%" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" />
+<div align="center">
+  <img width="100%" src="./assets/snake-header.svg" />
+  <img width="100%" src="./assets/snake.svg" alt="Shalom Obongo GitHub contribution grid snake" />
+  <img width="100%" src="./assets/snake-footer.svg" />
+</div>
 
 <br>
 

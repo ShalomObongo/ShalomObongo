@@ -1,0 +1,42 @@
+<svg width="900" height="28" viewBox="0 0 900 28" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#020b16"/>
+      <stop offset="50%"  stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#020b16"/>
+    </linearGradient>
+    <linearGradient id="fbot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#00e5ff"/>
+      <stop offset="50%"  stop-color="#a855f7"/>
+      <stop offset="80%"  stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="28" fill="url(#fbg)"/>
+
+  <!-- Top separator -->
+  <rect x="0" y="0" width="900" height="1" fill="#00e5ff" opacity="0.12"/>
+
+  <!-- Left border -->
+  <rect x="0" y="0" width="1.5" height="28" fill="#00e5ff" opacity="0.6"/>
+  <!-- Right border -->
+  <rect x="898.5" y="0" width="1.5" height="28" fill="#a855f7" opacity="0.6"/>
+
+  <!-- Status text left -->
+  <circle cx="18" cy="14" r="3.5" fill="#00c853" opacity="0.85">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="30" y="18" font-family="'Courier New', Courier, monospace" font-size="9"
+        fill="#00e5ff" letter-spacing="1.2" opacity="0.7">PROCESS RUNNING  ·  UPDATED DAILY</text>
+
+  <!-- Right coords -->
+  <text x="876" y="18" text-anchor="end"
+        font-family="'Courier New', Courier, monospace" font-size="9" fill="#a855f7"
+        letter-spacing="1" opacity="0.7">github.com/ShalomObongo  ·  v3</text>
+
+  <!-- Bottom border — neon gradient -->
+  <rect x="0" y="26.5" width="900" height="1.5" fill="url(#fbot)" opacity="0.9"/>
+</svg>

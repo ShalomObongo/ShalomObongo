@@ -1,0 +1,61 @@
+<svg width="900" height="42" viewBox="0 0 900 42" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#020b16"/>
+      <stop offset="50%"  stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#020b16"/>
+    </linearGradient>
+    <linearGradient id="htop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#a855f7"/>
+      <stop offset="50%"  stop-color="#00e5ff"/>
+      <stop offset="80%"  stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="42" fill="url(#hbg)"/>
+
+  <!-- Top border — neon gradient -->
+  <rect x="0" y="0" width="900" height="1.5" fill="url(#htop)" opacity="0.9"/>
+
+  <!-- Left border -->
+  <rect x="0" y="0" width="1.5" height="42" fill="#00e5ff" opacity="0.6"/>
+  <!-- Right border -->
+  <rect x="898.5" y="0" width="1.5" height="42" fill="#a855f7" opacity="0.6"/>
+
+  <!-- Terminal window buttons -->
+  <circle cx="22" cy="21" r="5.5" fill="#ff5f57"/>
+  <circle cx="40" cy="21" r="5.5" fill="#febc2e"/>
+  <circle cx="58" cy="21" r="5.5" fill="#28c840"/>
+
+  <!-- Separator after buttons -->
+  <line x1="74" y1="8" x2="74" y2="34" stroke="#00e5ff" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Title -->
+  <text x="450" y="15" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace" font-size="8" fill="#00e5ff"
+        opacity="0.4" letter-spacing="4">╔══════════════════════════════════════════════╗</text>
+  <text x="450" y="27" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="bold"
+        fill="#00e5ff" letter-spacing="3.5" filter="url(#glow)">CONTRIBUTION  GRID  ·  SNAKE  PROCESS</text>
+  <text x="450" y="39" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace" font-size="8" fill="#a855f7"
+        opacity="0.4" letter-spacing="4">╚══════════════════════════════════════════════╝</text>
+
+  <!-- Right label -->
+  <text x="876" y="18" text-anchor="end"
+        font-family="'Courier New', Courier, monospace" font-size="8" fill="#a855f7"
+        opacity="0.7" letter-spacing="1">ShalomObongo</text>
+  <text x="876" y="30" text-anchor="end"
+        font-family="'Courier New', Courier, monospace" font-size="7.5" fill="#f97316"
+        opacity="0.55" letter-spacing="0.5">PID: 2025.snk</text>
+
+  <!-- Bottom separator -->
+  <rect x="0" y="40.5" width="900" height="1" fill="#00e5ff" opacity="0.12"/>
+</svg>
