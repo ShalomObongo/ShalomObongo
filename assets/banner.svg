@@ -1,0 +1,214 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#020b16"/>
+      <stop offset="50%"  stop-color="#071120"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <!-- Divider gradient cyan→purple -->
+    <linearGradient id="div-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#00e5ff" stop-opacity="1"/>
+      <stop offset="75%"  stop-color="#a855f7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Dot grid pattern -->
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="#00e5ff" opacity="0.07"/>
+    </pattern>
+
+    <!-- Glow: white text -->
+    <filter id="gw" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Glow: cyan strong -->
+    <filter id="gc" x="-35%" y="-50%" width="170%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Glow: green (status) -->
+    <filter id="gg" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── BACKGROUND ──────────────────────────────── -->
+  <rect width="900" height="300" fill="url(#bg)"/>
+  <rect width="900" height="300" fill="url(#dots)"/>
+
+  <!-- ── SWEEPING SCAN LINE ───────────────────────── -->
+  <rect x="0" y="-4" width="900" height="2.5" fill="#00e5ff">
+    <animate attributeName="y"       values="-4;305"            dur="6s" repeatCount="indefinite" calcMode="linear"/>
+    <animate attributeName="opacity" values="0;0.14;0.14;0"
+             keyTimes="0;0.04;0.92;1"                           dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ── NEON BORDER FRAME ──────────────────────── -->
+  <rect x="0"   y="0"   width="900" height="2"   fill="#00e5ff" opacity="0.95"/>
+  <rect x="0"   y="298" width="900" height="2"   fill="#00e5ff" opacity="0.95"/>
+  <rect x="0"   y="0"   width="2"   height="300" fill="#00e5ff">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="898" y="0"   width="2"   height="300" fill="#00e5ff">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ── L-BRACKET CORNERS ──────────────────────── -->
+  <g fill="none" stroke="#00e5ff" stroke-width="2" opacity="0.95">
+    <polyline points="2,44 2,2 44,2"/>
+    <polyline points="856,2 898,2 898,44"/>
+    <polyline points="2,256 2,298 44,298"/>
+    <polyline points="856,298 898,298 898,256"/>
+  </g>
+
+  <!-- ── CIRCUIT TRACES — LEFT (cyan) ──────────── -->
+  <g stroke="#00e5ff" fill="none" opacity="0.2" stroke-width="1">
+    <line x1="2"  y1="78"  x2="58"  y2="78"/>
+    <line x1="58" y1="78"  x2="58"  y2="108"/>
+    <line x1="58" y1="108" x2="100" y2="108"/>
+    <circle cx="58" cy="78"  r="2.5" fill="#00e5ff" stroke="none"/>
+    <circle cx="100" cy="108" r="1.5" fill="#00e5ff" stroke="none"/>
+
+    <line x1="2"  y1="155" x2="44"  y2="155"/>
+    <line x1="44" y1="155" x2="44"  y2="183"/>
+    <line x1="44" y1="183" x2="88"  y2="183"/>
+    <circle cx="44" cy="155" r="2.5" fill="#00e5ff" stroke="none"/>
+    <circle cx="88" cy="183" r="1.5" fill="#00e5ff" stroke="none"/>
+
+    <line x1="2"  y1="228" x2="68"  y2="228"/>
+    <circle cx="68" cy="228" r="2.5" fill="#00e5ff" stroke="none"/>
+  </g>
+
+  <!-- ── CIRCUIT TRACES — RIGHT (purple) ───────── -->
+  <g stroke="#a855f7" fill="none" opacity="0.2" stroke-width="1">
+    <line x1="898" y1="78"  x2="842" y2="78"/>
+    <line x1="842" y1="78"  x2="842" y2="108"/>
+    <line x1="842" y1="108" x2="800" y2="108"/>
+    <circle cx="842" cy="78"  r="2.5" fill="#a855f7" stroke="none"/>
+    <circle cx="800" cy="108" r="1.5" fill="#a855f7" stroke="none"/>
+
+    <line x1="898" y1="155" x2="856" y2="155"/>
+    <line x1="856" y1="155" x2="856" y2="183"/>
+    <line x1="856" y1="183" x2="812" y2="183"/>
+    <circle cx="856" cy="155" r="2.5" fill="#a855f7" stroke="none"/>
+    <circle cx="812" cy="183" r="1.5" fill="#a855f7" stroke="none"/>
+
+    <line x1="898" y1="228" x2="832" y2="228"/>
+    <circle cx="832" cy="228" r="2.5" fill="#a855f7" stroke="none"/>
+  </g>
+
+  <!-- ── BINARY COLUMNS — LEFT ───────────────────── -->
+  <g font-family="monospace" font-size="7.5" fill="#00e5ff" opacity="0.11">
+    <text x="13" y="90">01101000</text>
+    <text x="13" y="102">10010110</text>
+    <text x="13" y="114">00110101</text>
+    <text x="13" y="126">11001010</text>
+    <text x="13" y="138">01011100</text>
+    <text x="13" y="150">10100011</text>
+    <text x="13" y="162">01110001</text>
+    <text x="13" y="174">11000110</text>
+    <text x="13" y="186">00001101</text>
+    <text x="13" y="198">10111010</text>
+    <text x="13" y="210">01010111</text>
+    <text x="13" y="222">11101001</text>
+  </g>
+
+  <!-- ── BINARY COLUMNS — RIGHT ──────────────────── -->
+  <g font-family="monospace" font-size="7.5" fill="#a855f7" opacity="0.11" text-anchor="end">
+    <text x="887" y="90">11001010</text>
+    <text x="887" y="102">00110101</text>
+    <text x="887" y="114">10010110</text>
+    <text x="887" y="126">01101000</text>
+    <text x="887" y="138">11100011</text>
+    <text x="887" y="150">00101110</text>
+    <text x="887" y="162">10110001</text>
+    <text x="887" y="174">01001101</text>
+    <text x="887" y="186">11010100</text>
+    <text x="887" y="198">00011011</text>
+    <text x="887" y="210">10101110</text>
+    <text x="887" y="222">01110010</text>
+  </g>
+
+  <!-- ── TOP CODE COMMENT RULE ─────────────────── -->
+  <line x1="108" y1="62" x2="792" y2="62" stroke="#00e5ff" stroke-width="0.5" opacity="0.2"/>
+  <text x="112" y="59" font-family="monospace" font-size="9.5" fill="#00e5ff" opacity="0.35" letter-spacing="0.5">// ─────────────────────────────────────────</text>
+  <text x="788" y="59" font-family="monospace" font-size="9.5" fill="#00e5ff" opacity="0.35" text-anchor="end" letter-spacing="0.5">─────────────────────────────────────────── //</text>
+
+  <!-- ── SHALOM — white filled, subtle flicker ──── -->
+  <!-- depth / bloom layer -->
+  <text x="450" y="133" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace" font-size="90" font-weight="900"
+        fill="#aee8ff" opacity="0.06">SHALOM</text>
+  <!-- main -->
+  <text x="450" y="130" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace" font-size="90" font-weight="900"
+        fill="#ffffff" filter="url(#gw)">SHALOM
+    <animate attributeName="opacity" values="1;0.93;1;0.96;1;0.91;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- ── OBONGO — cyan outline only, pulsing glow ── -->
+  <text x="450" y="198" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace" font-size="73" font-weight="900"
+        fill="#00e5ff" opacity="0.04">OBONGO</text>
+  <text x="450" y="198" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace" font-size="73" font-weight="900"
+        fill="none" stroke="#00e5ff" stroke-width="1.8" filter="url(#gc)">OBONGO
+    <animate attributeName="stroke-opacity" values="1;0.65;1;0.82;1" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- ── BLINKING CURSOR after OBONGO ──────────── -->
+  <!-- OBONGO at 73px Courier: ~6×44=264px wide, right edge ≈ 450+132=582 -->
+  <rect x="586" y="148" width="6" height="52" fill="#00e5ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ── PULSING DOTS flanking center ──────────── -->
+  <circle cx="138" cy="164" r="4" fill="#00e5ff">
+    <animate attributeName="r"       values="3;5.5;3"     dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="122" cy="164" r="1.8" fill="#00e5ff" opacity="0.35"/>
+  <circle cx="109" cy="164" r="1"   fill="#00e5ff" opacity="0.18"/>
+
+  <circle cx="762" cy="164" r="4" fill="#a855f7">
+    <animate attributeName="r"       values="3;5.5;3"     dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="778" cy="164" r="1.8" fill="#a855f7" opacity="0.35"/>
+  <circle cx="791" cy="164" r="1"   fill="#a855f7" opacity="0.18"/>
+
+  <!-- ── NEON DIVIDER ─────────────────────────── -->
+  <line x1="158" y1="216" x2="742" y2="216" stroke="url(#div-grad)" stroke-width="1.2">
+    <animate attributeName="opacity" values="0.45;0.85;0.45" dur="3.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- ── SUBTITLE ──────────────────────────────── -->
+  <text x="450" y="240" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace" font-size="12.5"
+        fill="#a855f7" letter-spacing="2.5">
+    ▸  Full-Stack &amp; Mobile   ◆   Automation &amp; AI   ◆   Nairobi, Kenya  ◂
+  </text>
+
+  <!-- ── STATUS INDICATOR ──────────────────────── -->
+  <circle cx="272" cy="267" r="4.5" fill="#00c853" filter="url(#gg)">
+    <animate attributeName="r"       values="3.5;6;3.5"   dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7"   dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="284" y="272" font-family="'Courier New', Courier, monospace" font-size="11"
+        fill="#00c853" letter-spacing="1.8">ONLINE · OPEN TO OPPORTUNITIES</text>
+
+  <!-- HIREABLE pill -->
+  <rect x="576" y="257" width="55" height="16" rx="3" fill="none" stroke="#f97316" stroke-width="1" opacity="0.8"/>
+  <text x="603" y="269" text-anchor="middle" font-family="'Courier New', Courier, monospace"
+        font-size="9" fill="#f97316" letter-spacing="1">HIREABLE</text>
+
+  <!-- ── BOTTOM CODE COMMENT RULE ──────────────── -->
+  <line x1="108" y1="285" x2="792" y2="285" stroke="#00e5ff" stroke-width="0.5" opacity="0.18"/>
+</svg>

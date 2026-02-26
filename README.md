@@ -1,6 +1,6 @@
 <!-- ===== HEADER BANNER ===== -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=2,4,12,24,30&height=280&section=header&text=SHALOM%20OBONGO&fontSize=75&fontColor=fff&animation=fadeIn&fontAlignY=45&desc=⚡%20Full%20Stack%20●%20Mobile%20●%20Automation%20●%20AI%20⚡&descSize=18&descAlignY=70&stroke=00e5ff&strokeWidth=2" />
+  <img width="100%" src="./assets/banner.svg" alt="Shalom Obongo" />
 </div>
 
 <!-- ===== MATRIX TYPING ANIMATION ===== -->
